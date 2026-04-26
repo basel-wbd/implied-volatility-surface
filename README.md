@@ -65,12 +65,7 @@ $$
 The synthetic volatility surface is modeled as:
 
 $$
-\sigma(K, T) =
-\sigma_0
-+ a x^2
-+ b x
-+ c e^{-dT}
-+ e x^2 T
+\sigma(K, T) = \sigma_0 + ax^2 + bx + ce^{-dT} + ex^2T
 $$
 
 This captures:
@@ -111,12 +106,14 @@ implied-volatility-surface/
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ---
-## Usage
-jupyter notebook notebooks/implied_vol_surface.ipynb
 
+## Usage
+```
+jupyter notebook notebooks/implied_vol_surface.ipynb
+```
 ---
 
 ## Key Features
