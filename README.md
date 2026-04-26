@@ -83,6 +83,8 @@ This captures:
 ---
 
 ## Project Structure
+
+```text
 implied-volatility-surface/
 │
 ├── notebooks/
@@ -98,7 +100,7 @@ implied-volatility-surface/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -111,7 +113,7 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-```
+```bash
 jupyter notebook notebooks/implied_vol_surface.ipynb
 ```
 ---
